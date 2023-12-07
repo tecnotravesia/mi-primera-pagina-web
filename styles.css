@@ -70,6 +70,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .main__hero div h1 {
@@ -123,7 +124,7 @@ main {
   background-color: rgb(32, 32, 32);
   padding: 28px 20px;
   border-radius: 8px;
-  width: 320px;
+  width: 300px;
 }
 
 .main__contact div form h3 {
@@ -188,4 +189,10 @@ main {
 
 .main__contact div form button:hover {
   background-color: rgb(44, 131, 88);
+}
+
+@media screen and (max-width: 400px) {
+  .header__nav {
+    display: none;
+  }
 }
